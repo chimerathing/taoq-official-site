@@ -3,30 +3,264 @@
   <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>The web site of amazingobjectquiz</title>
-    <!-- The style.css file allows you to change the look of your web pages.
-         If you include the next line in all your web pages, they will all share the same look.
-         This makes it easier to make new pages for your site. -->
-    <link href="/style.css" rel="stylesheet" type="text/css" media="all">
-  </head>
+    <title>THE AMAZING OBJECT QUIZ!</title>
+ <link
+      rel="icon"
+      type="image/x-icon"
+      href="https://file.garden/Z5ztm_B6wj_8HQnK/rewrwerfwrwgfedgdgedrg.png"
+    />
+    
+
+
+    <style>
+
+ @font-face {
+                font-family: rosela;
+                src: url('https://dl.dropbox.com/scl/fi/pwd7ysnhki4vftc9f9rbz/MS-Gothic.ttf?rlkey=12bg8zkwmonggdxqfdh90c8bk&st=o96zgisg&');
+            }
+
+            @font-face {
+                font-family: rosela;
+                src: url('https://dl.dropbox.com/scl/fi/pwd7ysnhki4vftc9f9rbz/MS-Gothic.ttf?rlkey=12bg8zkwmonggdxqfdh90c8bk&st=o96zgisg&');
+                font-weight: bold;
+            }
+
+            @font-face {
+                font-family: rosela;
+                src: url('https://dl.dropbox.com/scl/fi/pwd7ysnhki4vftc9f9rbz/MS-Gothic.ttf?rlkey=12bg8zkwmonggdxqfdh90c8bk&st=o96zgisg&');
+                font-style: italic;
+            }
+
+            @font-face {
+                font-family: rosela;
+                src: url('https://dl.dropbox.com/scl/fi/pwd7ysnhki4vftc9f9rbz/MS-Gothic.ttf?rlkey=12bg8zkwmonggdxqfdh90c8bk&st=o96zgisg&');
+                font-style: italic;
+                font-weight: bold;
+            }
+
+            @font-face {
+                font-family: marioluigi;
+                src: url('https://file.garden/Z5ztm_B6wj_8HQnK/MarioLuigi2.ttf');
+                font-weight: bold;
+            }
+
+            @font-face {
+  font-family: "DOS"; 
+  src: url('https://files.catbox.moe/piggu8.woff2') format('woff2');
+}
+
+@font-face{
+  font-family: 'basiic';
+  font-style: normal;
+  font-display: swap;
+  font-weight: 400;
+  src: url(https://cdn.jsdelivr.net/fontsource/fonts/iosevka@latest/latin-400-normal.ttf) format('truetype');
+}
+   
+
+.box {
+        
+         padding:.5em;
+  margin-inline:auto;
+
+  position:absolute;
+  left:50%;top:50%;transform: translateX(-50%) translateY(-50%);
+      }
+
+      body {
+        background-color: black;
+       overflow:hidden;
+       background-size: 110em;
+  background-repeat: repeat-x;
+  background-position:center;
+  background-attachment:fixed;
+  color:white;
+  font-family:DOS, basiic;
+      }
+
+     
+
+    
+
+h1 {
+ font-family:DOS, basiic;
+ 
+                font-size:2.3em;
+     color: ffdec6;
+    -webkit-background-clip: text;
+    -webkit-text-stroke: 5px transparent;
+color: red;
+ text-shadow: 2px 2px 6px red;
+font-weight: bold;
+text-align:center;
+}
+
+
+p{
+ text-align:center;
+  
+}
+
+              a {
+ text-shadow: 2px 2px 6px red;
+                
+     color: red;
+
+font-size:2em;
+text-decoration: underline wavy red; 
+transition: letter-spacing 1s;}
+            
+
+ a:hover {
+      color:white;
+      letter-spacing: 1px;
+      text-decoration:none;
+      }
+
+.digicam ::-webkit-scrollbar {
+  width: 0;
+}
+
+
+.digicam {
+  font-size: 16px;  
+  display: flex;
+  background-image: url(https://amazingobjectquiz.neocities.org/assets/landing%20page%20digicam.png);
+  background-size: cover;
+  width: 900px;
+  height: 540px;
+  padding:50px;
+ 
+ 
+ 
+}
+
+.warning {
+  height:350px;
+  width:360px;
+  margin-top: 100px;
+  margin-left:185px;
+  overflow-y:auto;
+  overflow-x:hidden;
+}
+
+
+.scanlines {
+    overflow: hidden;
+    position: relative;
+}
+.scanlines:before,
+.scanlines:after {
+    display: block;
+    pointer-events: none;
+    content: "";
+    position: absolute;
+}
+.scanlines:before {
+    width: 100%;
+    height: 2px;
+    z-index: 2147483649;
+    background: rgba(0, 0, 0, 0.3);
+    opacity: 0.75;
+    animation: scanline 6s linear infinite;
+}
+.scanlines:after {
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 2147483648;
+    background: linear-gradient(
+        to bottom,
+        transparent 50%,
+        rgba(0, 0, 0, 0.3) 51%
+    );
+    background-size: 100% 4px;
+    animation: scanlines 1s steps(60) infinite;
+}
+
+/* ANIMATE UNIQUE SCANLINE */
+@keyframes scanline {
+    0% {
+        transform: translate3d(0, 200000%, 0);
+    }
+}
+@keyframes scanlines {
+    0% {
+        background-position: 0 50%;
+    }
+}
+div.scanlines {
+    position: absolute;
+}
+div .jpg {
+    width: 100vw;
+    height: 100vh;
+    border: none;
+}
+.jpg {
+    background: url("https://upload.wikimedia.org/wikipedia/commons/thumb/a/aa/Philips_PM5544.svg/800px-Philips_PM5544.svg.png")
+        no-repeat;
+    background-size: cover;
+}
+body {
+    
+    background: #1b1b1b;
+}
+
+
+
+ @media only screen and (max-width: 800px) {
+
+.box {
+  width:100%;
+}
+</style>
+  
+    
+</head>
   <body>
-    <h1>Welcome to my Website!</h1>
+  
+  <div class="scanlines">
+    <div class="jpg"></div>
+</div>
 
-    <p>This is a paragraph! Here's how you make a link: <a href="https://neocities.org">Neocities</a>.</p>
 
-    <p>Here's how you can make <strong>bold</strong> and <em>italic</em> text.</p>
 
-    <p>Here's how you can add an image:</p>
-    <img src="/neocities.png" alt="Site hosted by Neocities">
+  <div class="box">
+    <div class="digicam">
 
-    <p>Here's how to make a list:</p>
+  <div class="warning">
 
-    <ul>
-      <li>First thing</li>
-      <li>Second thing</li>
-      <li>Third thing</li>
-    </ul>
+    <h1>WARNING</h1>
+ <p>The comic you are about to read may contain silly looking object characters, but it also contains subject matter that will more than likely be triggering for many people and are not for the faint of heart. This comic is not intended for younger children, nor those who are incapable of treating serious topics with the respect and weight that they deserve.</p>
 
-    <p>To learn more HTML/CSS, check out these <a href="https://neocities.org/tutorials">tutorials</a>!</p>
+ <p>THIS COMIC WILL CONTAIN THEMES OF:</p>
+ <ul>
+ <li>Abuse of various types (emotional, physical, psychological, etc)</li>
+ <li>Rape, sexual abuse/assault, grooming & harassment</li>
+ <li>Childhood sexual abuse/child abuse in general</li>
+ <li>Murder, violence, blood & gore</li>
+ <li>Abuse & exploitation within the music industry/of public figures in general</li>
+<li>Stalking, harassment & bullying</li>
+<li>Homophobia, transphobia, misogyny, intersexism & internalized feelings of such</li>
+<li>Drug addiction/abuse</li>
+ </ul>
+
+ <p>Only subject yourself to the content ahead if you're absolutely sure that you want to. You are free to stop reading at any time. Take care yourself always! </p>
+
+ <p><a href="/home">PROCEED?</a></P>
+  </div>
+  
+  
+  
+</div>
+  </div>
+
+
+
+
+  
+  
   </body>
 </html>
