@@ -5,7 +5,8 @@ document.querySelector(".writeHeader").innerHTML = `
         <a href="index.html"><img src="./img/logo.png" alt="" /></a> 
 
         <div id="nav">
-            <a href="index.html">HOME</a> |
+            <a href="home.html">HOME</a> |
+            <a href="read.html">READ</a> |
             <a href="archive.html">ARCHIVE</a> |
              <a href="cast.html">CAST</a> |
             <a href="about.html">ABOUT</a> |
