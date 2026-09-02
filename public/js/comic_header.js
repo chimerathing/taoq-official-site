@@ -7,8 +7,10 @@ document.querySelector(".writeHeader").innerHTML = `
         <div id="nav">
             <a href="index.html">HOME</a> |
             <a href="archive.html">ARCHIVE</a> |
+             <a href="cast.html">CAST</a> |
             <a href="about.html">ABOUT</a> |
-            <a href="characters.html">CHARACTERS</a>
+            <a href="extras.html">EXTRAS</a> |
+             <a href="news.html">NEWS</a>
         </div>
     </header>
 `;
