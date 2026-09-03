@@ -18,8 +18,8 @@ background-color:  #44075e;
 
 /* header image */
 header img {
-  width: 500px;
-  max-width: 98%;
+  width: 100%px;
+ 
 }
 
 /* clearfix hack to prevent image overflow. check out the W3Schools page on it. */
