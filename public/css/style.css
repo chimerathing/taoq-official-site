@@ -104,7 +104,8 @@ a:hover {
 /* HEADER */
 header #nav {
   background-color: black;
-  outline: 3px solid #502da9;
+  outline: 3px solid black;
+  box-shadow: 1px 1px 5px black;
   font-size: 20px;
   width: 100%;
   margin: 5px;
