@@ -52,6 +52,7 @@ header img {
 .subPage p, footer, #authorNotes, .archiveTable {
   font-family: opendyslexic;
   font-size: large;
+  color:white;
 }
 
 /* STYLING FOR SUBPAGES (about, characters, etc) */
@@ -61,8 +62,8 @@ header img {
 .subPage {
   width: 1000px;
   max-width: 98%;
-  background-color: #ffffff;
-  outline: 3px solid #000000;
+  background-color: black;
+  outline: 3px solid #502da9;
   margin: auto;
   margin-bottom: 10px;
   padding: 0px 12px 12px;
@@ -93,11 +94,11 @@ header img {
 
 /* link colors */
 a {
-      color: #000000;
+      color: #ffbc57;
     }
 
 a:hover {
-      color: #DA5437;
+      color: white;
     }
 
 /* HEADER */
@@ -133,13 +134,14 @@ header #nav {
 
 /* style author notes */
 #authorNotes {
-  background-color:#ffffff;
-  outline: 3px solid #000000;
+  background-color:black;
+  outline: 3px solid #502da9;
   margin: auto;
   padding: 3px;
   padding-top: 0px;
   width: 900px;
   max-width: 98%;
+ 
 }
 
 /* ARCHIVE PAGE */
