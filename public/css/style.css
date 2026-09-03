@@ -13,6 +13,8 @@ body {
   background-image: url('https://amazingobjectquiz.neocities.org/assets/star%20background%20tile.png');
   background-size:10em;
     background-attachment:fixed;
+    background-blend-mode: multiply;
+background-color:  #20032c;
 }
 
 /* header image */
