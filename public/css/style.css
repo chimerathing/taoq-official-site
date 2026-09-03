@@ -103,8 +103,8 @@ a:hover {
 
 /* HEADER */
 header #nav {
-  background-color: #ffffff;
-  outline: 3px solid #000000;
+  background-color: black;
+  outline: 3px solid #502da9;
   font-size: 20px;
   width: 100%;
   margin: auto;
@@ -197,25 +197,19 @@ header #nav {
 
 /* FOOTER */
 footer {
-  color: #421a1a;
+  color: white;
   margin-top: 12px;
   margin-bottom: 15px;
-  float: left;
+  float: center;
   width: 100%;
   font-size: 12px;
+  text-align:center;
 }
 
 footer p {
   margin: auto;
 }
 
-footer a {
-  color: #c8d32b
-}
-
-footer a:hover {
-  color: #868d26
-}
 
 /* take away margins from the edges of the screen */
 html, body {
