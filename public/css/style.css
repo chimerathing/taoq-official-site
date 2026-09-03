@@ -4,16 +4,14 @@
 
 
     @font-face {
-  font-family: "DOS"; 
-  src: url('https://files.catbox.moe/piggu8.woff2') format('woff2');
-}
+                font-family: marioluigi;
+                src: url('https://file.garden/Z5ztm_B6wj_8HQnK/MarioLuigi2.ttf');
+                font-weight: bold;
+            }
 
-@font-face{
-  font-family: 'basiic';
-  font-style: normal;
-  font-display: swap;
-  font-weight: 400;
-  src: url(https://cdn.jsdelivr.net/fontsource/fonts/iosevka@latest/latin-400-normal.ttf) format('truetype');
+    @font-face {
+  font-family: opendyslexic; 
+  src: url('https://file.garden/Z5ztm_B6wj_8HQnK/OpenDyslexic-Regular.otf');
 }
 
 body, div, main, section, article {
@@ -27,6 +25,7 @@ body {
     background-attachment:fixed;
     background-blend-mode: multiply;
 background-color:  #44075e;
+color: white;
 }
 
 /* header image */
@@ -46,12 +45,12 @@ header img {
 
 /* header font */
 #showComic, header, h1, h2, h3, h4, h5 {
-  font-family:  'DOS', 'basiic';
+  font-family:  marioluigi;
 }
 
 /* body font */
 .subPage p, footer, #authorNotes, .archiveTable {
-  font-family: 'DOS', 'basiic';
+  font-family: opendyslexic;
   font-size: large;
 }
 
