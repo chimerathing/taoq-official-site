@@ -9,7 +9,10 @@ body, div, main, section, article {
 
 /* universal background color */
 body {
-  background-color: #DA5437; 
+  background-color: black; 
+  background-image: url('https://amazingobjectquiz.neocities.org/assets/star%20background%20tile.png');
+  background-size:repeat;
+    background-attachment:fixed;
 }
 
 /* header image */
