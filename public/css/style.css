@@ -31,7 +31,7 @@ color: white;
 /* header image */
 header img {
   width: 100%;
- 
+ margin:0px;
 }
 
 /* clearfix hack to prevent image overflow. check out the W3Schools page on it. */
@@ -46,6 +46,10 @@ header img {
 /* header font */
 #showComic, header, h1, h2, h3, h4, h5 {
   font-family:  marioluigi;
+}
+
+h1{
+  margin:5px;
 }
 
 /* body font */
@@ -108,6 +112,7 @@ header #nav {
   box-shadow: 1px 1px 5px black;
   font-size: 20px;
   width: 100%;
+  margin:0px;
    outline: 3px solid #502da9;
   padding:10px;
 }
