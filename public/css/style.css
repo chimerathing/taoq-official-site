@@ -3,6 +3,19 @@
    "how to change link color." */
 
 
+    @font-face {
+  font-family: "DOS"; 
+  src: url('https://files.catbox.moe/piggu8.woff2') format('woff2');
+}
+
+@font-face{
+  font-family: 'basiic';
+  font-style: normal;
+  font-display: swap;
+  font-weight: 400;
+  src: url(https://cdn.jsdelivr.net/fontsource/fonts/iosevka@latest/latin-400-normal.ttf) format('truetype');
+}
+
 body, div, main, section, article {
   box-sizing: border-box; 
 }
@@ -33,12 +46,12 @@ header img {
 
 /* header font */
 #showComic, header, h1, h2, h3, h4, h5 {
-  font-family: 'Cherry Cream Soda', cursive;
+  font-family:  'DOS', 'basiic';
 }
 
 /* body font */
 .subPage p, footer, #authorNotes, .archiveTable {
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'DOS', 'basiic';
   font-size: large;
 }
 
