@@ -200,7 +200,7 @@ header #nav {
 
 /* highlight a table row and make pointer into hand when moused over */
 .archiveRow:hover {
-  background-color: #DA5437;
+  background-color: #502da9;
   cursor: pointer;
 }
 
